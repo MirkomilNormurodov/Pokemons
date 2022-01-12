@@ -1,6 +1,10 @@
 
 var elPokemonsList = document.querySelector('.card');
+let elPokemonForm = document.querySelector('.content');
 var elPokemonsSelect = document.querySelector('.content__select');
+let elPokemonInput = document.querySelector('.content__ipt');
+let elPokemonSel = document.querySelector('.selects');
+
 
 function elementCreator(tagname){
     return document.createElement(tagname)
@@ -59,15 +63,9 @@ for (var i = 0; i < pokemons.length; i++){
     elPokemonsSelect.appendChild(option)
 
 
-
 }
 
 
-    // for (var i = 0;  i < elements.length; i++){
-    //     if(elements[i] === "Poison") {
-    //         console.log((true));
-    //     }
-    // }
 
      var a = ["Grass", "Poison", "Grass", "Poison", "Grass", "Poison", "Fire", "Fire", "Fire", "Flying", "Water", "Water", "Water", "Bug", "Bug", "Bug", "Flying", "Bug",  "Poison", "Bug", "Poison", "Normal", "Flying", "Normal", "Flying", "Normal", "Flying", "Normal", "Normal", "Normal", "Flying", "Normal", "Flying", "Poison", "Poison", "Electric", "Electric", "Ground", "Ground", "Poison", "Poison", "Poison", "Ground", "Poison", "Poison", "Poison", "Ground", "Normal", "Normal", "Fire", "Fire", "Normal", "Normal", "Poison", "Flying", "Poison", "Flying", "Grass", "Poison", "Grass", "Poison", "Grass", "Poison", "Grass", "Poison", "Grass", "Poison", "Grass", "Poison", "Grass", "Poison", "Bug", "Poison", "Bug", "Poison", "Bug", "Poison", "Bug", "Poison", "Ground", "Ground", "Normal", "Normal", "Water", "Water", "Fighting", "Fighting", "Fire", "Fire", "Water", "Water", "Water", "Fighting", "Psychic", "Psychic", "Psychic", "Fighting", "Fighting", "Fighting", "Grass", "Poison", "Grass", "Poison", "Grass", "Poison",  "Water", "Poison", "Rock", "Ground", "Rock", "Ground", "Fire", "Fire", "Water", "Psychic",  "Electric", "Electric", "Normal", "Flying", "Normal", "Flying", "Normal", "Flying", "Water", "Water", "Ice", "Poison", "Poison", "Water", "Water", "Ice", "Ghost", "Poison", "Ghost", "Poison", "Ghost", "Poison", "Rock", "Ground", "Psychic", "Psychic", "Water", "Water", "Electric", "Electric", "Grass", "Psychic", "Grass", "Psychic", "Ground", "Ground", "Fighting", "Fighting", "Normal", "Poison", "Poison", "Ground", "Rock", "Ground", "Rock", "Normal", "Grass", "Normal", "Water", "Water", "Water", "Water", "Water", "Water", "Psychic", "Psychic", "Bug", "Flying", "Ice", "Psychic", "Electric", "Fire", "Bug", "Normal", "Water", "Water", "Flying", "Ice", "Normal", "Normal", "Water", "Electric", "Fire", "Normal", "Rock", "Water", "Rock", "Water", "Rock", "Water", "Rock", "Flying", "Normal", "Ice", "Flying", "Electric", "Flying", "Fire", "Flying", "Dragon", "Dragon", "Dragon", "Flying", "Psychic", "Psychic",];
      var b = [];
